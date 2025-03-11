@@ -1,5 +1,6 @@
 import { FC } from 'react'
+import { PageContainer } from '@/components/ui/PageContainer'
 
 export const HandsontablePage: FC = () => {
-  return <div>HandsontablePage</div>
+  return <PageContainer>HandsontablePage</PageContainer>
 }

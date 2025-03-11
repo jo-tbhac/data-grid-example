@@ -17,6 +17,7 @@
     "@handsontable/react-wrapper": "^15.1.0",
     "@mui/material": "^6.4.7",
     "handsontable": "^15.1.0",
+    "hyperformula": "^3.0.0",
     "prettier": "^3.5.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

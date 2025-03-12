@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@ag-grid-community/locale':
+        specifier: ^33.1.1
+        version: 33.1.1
       '@emotion/react':
         specifier: ^11.14.0
         version: 11.14.0(@types/react@19.0.10)(react@19.0.0)
@@ -83,6 +86,9 @@ importers:
         version: 6.2.0
 
 packages:
+
+  '@ag-grid-community/locale@33.1.1':
+    resolution: {integrity: sha512-YElnMhPJqlPEWKMpwKkAAVL3Z2GeYwEVwFmXz4RW/GZHf7EZQcTREbFXFq9O3y2dYT9LfC7DG4eCjG/+oOI5Gw==}
 
   '@ampproject/remapping@2.3.0':
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
@@ -1434,6 +1440,8 @@ packages:
     engines: {node: '>=10'}
 
 snapshots:
+
+  '@ag-grid-community/locale@33.1.1': {}
 
   '@ampproject/remapping@2.3.0':
     dependencies:

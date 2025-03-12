@@ -1,2 +1,2 @@
-export * from './rows1'
-export * from './columns1'
+export * from './rows'
+export * from './columns'

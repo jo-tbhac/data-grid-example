@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router'
+import { BrowserRouter, Routes, Route, Outlet } from 'react-router'
 import { AgGridPage } from '@/components/AgGrid'
 import { HandsontablePage } from '@/components/Handsontable'
 import { MuiDataGridPage } from '@/components/MuiDataGrid'
@@ -12,7 +12,7 @@ export const App = () => {
           <Route path="/ag-grid" element={<AgGridPage />} />
           <Route path="/handsontable" element={<HandsontablePage />} />
           <Route path="/mui-data-grid" element={<MuiDataGridPage />} />
-          <Route path="/" />
+          <Route path="/" element={<Outlet />} />
         </Route>
       </Routes>
     </BrowserRouter>

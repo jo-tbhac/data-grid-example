@@ -9,3 +9,8 @@ export const columns2 = [...new Array(100)].map((_, i) => ({
   filter: true,
   floatingFilter: true,
 }))
+
+export const columns3 = [...new Array(100)].map((_, i) => ({
+  field: `col${i}`,
+  editable: true,
+}))
